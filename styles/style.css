@@ -256,7 +256,7 @@ span.two-columns__span-accent {
     justify-content: space-between;
     flex-direction: row;
     width: 1100px;
-    margin: auto;
+    margin: 0 auto;
     flex-wrap: wrap;
     margin-bottom: 90px;
     z-index: 1;
@@ -331,8 +331,16 @@ span.two-columns__span-accent {
     color: white;
 }
 
+.footer__column_content_info {
+    display: flex;
+    flex-direction: column;
+}
+
 .footer__column-heading {
     color: white;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .footer__column-links_main {
@@ -359,27 +367,56 @@ span.two-columns__span-accent {
     color: white;
 }
 
+.footer__social-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .footer__column_content_social {
     display: flex;
-    flex-direction: raw;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .footer__social-icon_facebook {
     display: flex;
+    
 }
 
 .footer__social-icon_vkontakte {
     display: flex;
+
 }
 
 .footer__social-icon_instagram {
     display: flex;
+    
 }
 
 .header__link_facebook {
     display: flex;
+    font-size: 18px;
+    line-height: 30px;
 }
 
 .header__link_vkontakte {
     display: flex;
+    font-size: 18px;
+    line-height: 30px;
+    
+}
+
+.header__link_instagram {
+    display: flex;
+    font-size: 18px;
+    line-height: 30px;
+}
+.column__social_column_title {
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+   
 }
