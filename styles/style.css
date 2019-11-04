@@ -191,6 +191,7 @@ span.two-columns__span-accent{
 }
 
 .feinman__title {
+    position: relative;
     line-height: 1.15;
     font-size: 120px;
     font-weight: bold;
