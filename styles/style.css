@@ -230,6 +230,8 @@ span.two-columns__span-accent{
 
 .kaufman {
     background-color:#1F1F1F;
+    overflow: hidden; 
+    position: relative;
     
 }
 
@@ -261,16 +263,16 @@ span.two-columns__span-accent{
     margin: auto;
     flex-wrap: wrap;
     margin-bottom: 90px;
-    border: 1px solid red;
+    z-index: 1;
 }
 
 .table__cell_theme_dark {
     width: 200px;
-    border: red solid 1px;
+    
     display: flex;
     flex-direction: column;
     margin-top: 80px;
-    margin-bottom: 90px;
+    z-index: 1;
 }
 
 .table__heading_theme_dark {
@@ -279,8 +281,8 @@ span.two-columns__span-accent{
     font-size: 24px;
     font-weight: bold;
     display: flex;
-    
-
+    margin: 0 0;
+    z-index: 1;
 }
 
 .table__text_theme_dark {
@@ -290,4 +292,15 @@ span.two-columns__span-accent{
     line-height: 1.2;
     font-size: 18px;
     font-weight: normal;
+    margin-top:20px;
+    margin-bottom: 0;
+    z-index: 1;
+}
+
+.kaufman__triangle {
+    position: absolute;
+    top:0;
+    right: -210px;
+    z-index: 0;
+
 }
