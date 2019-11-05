@@ -115,6 +115,7 @@
     font-size: 24px;
     line-height: 34px;
     margin-bottom: 30px;
+    margin-top: 0px;
     font-weight: normal;
 }
 
@@ -167,6 +168,7 @@ span.two-columns__span-accent {
 .table__text-separate {
     display: flex;
     align-items: flex-end;
+    margin-top: 20px;
 }
 
 .table__heading {
@@ -175,6 +177,7 @@ span.two-columns__span-accent {
     font-weight: bold;
     display: flex;
     justify-content: space-between;
+    margin: 0;
 }
 
 .feinman {
@@ -303,8 +306,8 @@ span.two-columns__span-accent {
 .footer {
     background-color: #1F1F1F;
     min-height: 350px;
-    padding-top: 90px;
-    
+    padding-top: 60px;
+    padding-bottom: 40px;
 }
 
 .footer__columns {
@@ -403,6 +406,7 @@ span.two-columns__span-accent {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-right: 10px;
 }
 
 .footer__column_content_social {
