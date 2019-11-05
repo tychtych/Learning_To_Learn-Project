@@ -303,23 +303,27 @@ span.two-columns__span-accent {
 .footer {
     background-color: #1F1F1F;
     min-height: 350px;
-}
-
-.footer__columns {
-    border: red solid 1px;
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    width: 90%;
-}
-
-.footer__column {
-    border: red solid 1px;
+    padding-top: 90px;
     
 }
 
+.footer__columns {
+    
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 90%;
+    
+    
+}
+
+
+
 .footer__column_content_copyright {
     flex-basis: 711px;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo_place_footer {
@@ -329,6 +333,11 @@ span.two-columns__span-accent {
 
 .footer__author {
     color: white;
+    display: flex;
+    margin-top: 100px;
+    
+    
+
 }
 
 .footer__column_content_info {
@@ -341,18 +350,41 @@ span.two-columns__span-accent {
     line-height: 30px;
     font-size: 18px;
     font-weight: bold;
+    
+    margin-top: 0px;
+    
+}
+
+.footer__column-links{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    
 }
 
 .footer__column-links_main {
     color: white;
+    margin: 0px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
+   
 }
 
 .footer__column-links_concept {
     color: white;
+    margin: 0px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
 }
 
 .footer__column-links_tutors {
     color: white;
+    margin: 0px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: normal;
 }
 
 .header__link_facebook {
@@ -374,7 +406,6 @@ span.two-columns__span-accent {
 }
 
 .footer__column_content_social {
-    display: flex;
     display: flex;
     flex-direction: column;
     
@@ -418,5 +449,7 @@ span.two-columns__span-accent {
     font-size: 18px;
     font-weight: bold;
     color: white;
+    margin-top: 0px;
+    
    
 }
