@@ -138,18 +138,46 @@ span.two-columns__span-accent {
 }
 
 .cards {
+    
     display: grid;
-    grid-template-columns: repeat(auto-fill, 300px);
+    grid-template-columns: repeat(3, 300px);
     grid-row-gap: 60px;
-    grid-column-gap: 100px;
+    grid-column-gap: 50px;
     margin: auto;
-    width: 80%;
+    margin-top: 60px;
+    width: 58%;
 }
 
 .cards__item {
     display:flex;
     flex-direction: column;
     align-items: center;
+    width: 240px;
+    margin-bottom: 60px;
+}
+
+.cards__title {
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 43px;
+    margin-bottom: 0px;
+    
+    min-height: 25px;
+}
+
+.cards__description {
+    margin-bottom: 0px;
+    margin-top: 16px;
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.cards__image {
+    border-radius: 50%;
 }
 
 
@@ -171,6 +199,69 @@ span.two-columns__span-accent {
     font-weight: normal;
 }
 
+.video__iframes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:50px;
+}
+
+.video__iframe {
+    margin-right: 20px;
+}
+
+.khan {
+    background-color: #F2F2F2;
+}
+
+.khan__container {
+    width: 80%;
+    margin: auto;
+    padding-top: 105px;
+    
+}
+
+.khan__author {
+    line-height: 42px;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
+.khan__title {
+    margin-top: 0px;
+    line-height: 1.15;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.khan__quote {
+    line-height: 34px;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 50px;
+    width: 790px;
+}
+
+.khan__quote-author {
+    margin-top: 36px;
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.khan__quoute-author-subline {
+    margin-top: 10px;
+    line-height: 1.15 ;
+    font-weight: 24px;
+    font-weight: normal;
+}
+
+.khan__book-container {
+    margin-top: 68px;
+    width: 80%;
+    margin: auto;
+}
 .table {
     display: flex;
     justify-content: space-between;
@@ -179,6 +270,11 @@ span.two-columns__span-accent {
     margin: auto;
     flex-wrap: wrap;
     margin-bottom: 100px;
+}
+
+.khan__book-container {
+    display:flex;
+    flex-direction: row;
 }
 
 .table__cell {
@@ -197,6 +293,12 @@ span.two-columns__span-accent {
     display: flex;
     align-items: flex-end;
     margin-top: 20px;
+}
+
+.khan__buy-link {
+    margin-left: 20px;
+    font-size: 20px;
+    
 }
 
 .table__heading {
