@@ -1,3 +1,14 @@
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
 .page {
     min-width: 1100px;
     /* мы ещё не умеем делать мобильную версию сайта, */
@@ -73,6 +84,9 @@
     top: 64px;
     bottom: 0;
     z-index: 0;
+    transform: rotate(-15deg);
+    animation: rotation 20s infinite;
+
 }
 
 
@@ -91,7 +105,7 @@
     justify-content: space-between;
     align-items: flex-start;
     width: 80%;
-    margin: 100px 0;
+    margin: 100px auto;
 
 }
 
@@ -122,6 +136,22 @@ span.two-columns__span-accent {
     font-size: 24px;
     font-weight: bold;
 }
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 300px);
+    grid-row-gap: 60px;
+    grid-column-gap: 100px;
+    margin: auto;
+    width: 80%;
+}
+
+.cards__item {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
 .section-title {
     font-size: 60px;

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Научиться учиться</title>
-    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
@@ -60,6 +60,52 @@
                         </p>
                     </div>
                 </div>
+            </section>
+
+            <section class="technics">
+                <h2 class="section-title"> Техники обучения </h2>
+                <div class="section-subtitle">
+                    <p class="section-subtitle__text"> Пять практик от Барбары Оакли </p>
+                </div>
+                <div class="cards">
+
+                    <div class="cards__item">
+                        <img src="images/attention.png" class="cards__image" width="160" height="160">
+                        <h4 class="cards__title">Два вида внимания </h4>
+                        <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и
+                            рассеянное мышление.</p>
+                    </div>
+
+                    <div class="cards__item">
+                        <img src="images/recall.png" class="cards__image" width="160" height="160">
+                        <h4 class="cards__title">Recall </h4>
+                        <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции
+                            памяти.</p>
+                    </div>
+
+                    <div class="cards__item">
+                        <img src="images/interliving.png" class="cards__image" width="160" height="160">
+                        <h4 class="cards__title">Интерливинг</h4>
+                        <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.
+                        </p>
+                    </div>
+
+                    <div class="cards__item">
+                        <img src="images/question.png" class="cards__image" width="160" height="160">
+                        <h4 class="cards__title">Вопросы</h4>
+                        <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас
+                            действительно волнует.</p>
+                    </div>
+
+                    <div class="cards__item">
+                        <img src="images/question.png" class="cards__image" width="160" height="160">
+                        <h4 class="cards__title">Иллюзия компетентности</h4>
+                        <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только
+                            кажется, что вы владеете новой темой.</p>
+                    </div>
+
+                </div>
+
             </section>
 
             <section class="digits">
@@ -251,16 +297,6 @@
 
 <!--ОБЩИЕ ЗАМЕЧАНИЯ-->
 <!--
-- проблемы с путями к картинкам и стилям. невозможно проверить работу.
-в index.html пути указываются либо сразу к файлу по типу - styles/style.css или images/name.jpg
-либо так - ./styles/style.css или ./images/name.jpg
-откройте из папки index.html и посмотрите как выглядит сейчас ваша страница
-- есть несоответствия по БЭМ (проверить тут https://yoksel.github.io/html-tree/, путем добавления своего кода - все что внутри body)
--->
-
-<!--НЕ УДАЛЯЙТЕ комментарии проверяющего!-->
-
-<!--
-- хорошая семантика
-- нет критических ошибок по валидатору
+- <link rel="stylesheet" href="normalize.css"> неверно подключен - не хватает styles/
+в остальном все отлично
 -->
