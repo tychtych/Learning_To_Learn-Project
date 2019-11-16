@@ -50,6 +50,7 @@
     justify-content: center;
     background-color: #F2F2F2;
     position: relative;
+    overflow: hidden;
 }
 
 .header__title {
@@ -86,8 +87,24 @@
     z-index: 0;
     transform: rotate(-15deg);
     animation: rotation 20s infinite;
+    
 
 }
+
+.header__link {
+    color: blue;
+    font-weight: bold;
+    opacity: 1;
+}
+
+.header__link:hover {
+    opacity: 0.5;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+
+
 
 
 .header__main-illustration {
@@ -204,10 +221,16 @@ span.two-columns__span-accent {
     flex-direction: row;
     justify-content: center;
     margin-top:50px;
+    
 }
 
 .video__iframe {
     margin-right: 20px;
+}
+
+.oakley {
+    background-color: #F2F2F2;
+    
 }
 
 .khan {
@@ -262,6 +285,12 @@ span.two-columns__span-accent {
     width: 80%;
     margin: auto;
 }
+
+.khan__buy-link:hover {
+    opacity: 0.5;
+    transition: opacity 0.5s ease-in-out;
+}
+
 .table {
     display: flex;
     justify-content: space-between;
@@ -355,12 +384,19 @@ span.two-columns__span-accent {
     line-height: 51px;
     font-size: 36px;
     font-weight: normal;
+    color: blue;
+}
+
+.feinman__link:hover {
+    opacity: 0.5;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .kaufman {
     background-color: #1F1F1F;
     overflow: hidden;
     position: relative;
+    overflow: hidden;
 }
 
 .section-title__theme_dark {
@@ -371,6 +407,7 @@ span.two-columns__span-accent {
     color: white;
     padding-top: 90px;
     margin: auto;
+    z-index: 1;
 }
 
 .section-subtitle__theme_dark {
@@ -430,7 +467,25 @@ span.two-columns__span-accent {
     top: 0;
     right: -210px;
     z-index: 0;
+    animation: rotation 20s infinite;
 }
+
+.resources__logo-zone {
+    display:flex;
+    flex-direction: row;
+    width: 1100px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 217px;
+}
+
+.resources__logo {
+    width: 270px;
+    height: 38px;
+}
+
+
+
 
 .footer {
     background-color: #1F1F1F;
@@ -505,6 +560,11 @@ span.two-columns__span-accent {
     margin-right: 10px;
 }
 
+.footer__social-icons:hover {
+    opacity: 0.5;
+    transition: opacity 0.5s ease-in-out;
+}
+
 .footer__column_content_social {
     display: flex;
     flex-direction: column;
@@ -532,3 +592,4 @@ span.two-columns__span-accent {
     color: white;
     margin-top: 0px;
 }
+
